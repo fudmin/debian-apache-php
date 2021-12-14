@@ -1,0 +1,11 @@
+version: '2'
+services:
+  myproject:
+    build: ./
+    restart: always
+    networks:
+      - bridge
+    ports:
+      - 80:80
+networks:
+  docker-localhost:
