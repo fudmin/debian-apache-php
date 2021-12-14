@@ -1,5 +1,5 @@
 FROM debian:latest
-MAINTAINER Paul Smith <p@ulsmith.net>
+MAINTAINER Frederic Mohr <f.mohr@futrue.com>
 
 ## Install base packages
 RUN apt-get update && \
